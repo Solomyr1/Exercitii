@@ -33,7 +33,7 @@ print("primul numar", fraza [0])
 fraza_3 = "Emma is good developer. Emma is a writer"
 print(fraza_3.find("Emma"))
 
-#Ex 7
+#Ex 7 [?]
 fraza_1 = "eu merg la mare"
 print("lungimea frazei fraza_1 este", len(fraza_1))
 print("substring", fraza_1[0:2])
@@ -42,15 +42,14 @@ print("substring", fraza_1[0:2])
 fraza_2 = "eu merg la mare"
 print("lungimea frazei fraza_2 este", len(fraza_2))
 
-#Ex 9
+#Ex 9 [?]
 fraza_4 = "restart"
 print(fraza_4.replace("r", "$"))
 
-#Ex 10
+#Ex 10 [?]
 totalMoney = 1000
 quantity = 3
 price = 450
-
 print("I have f'(total money) so I can buy f'(quantity) football for f'(price) dollars")
 
 #Ex 11
