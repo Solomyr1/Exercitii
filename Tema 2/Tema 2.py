@@ -21,36 +21,38 @@ print(type(laborator))
 #Ex 4
 c = 3
 d = 4
-print(c*d)
+print("produsul este", c*d)
 
-#Ex 5 [?]
+#Ex 5 [?] - Nu cred ca asta trebuia, nu?
 fraza = "5789"
 print("lungimea numarului", len(fraza))
 print("primul numar", fraza [0])
+print("ultimul numar", fraza [-1])
 
 
-#Ex 6 [?] - Ar trebui folosit "in"?
+#Ex 6
 fraza_3 = "Emma is good developer. Emma is a writer"
-print(fraza_3.find("Emma"))
+print(fraza_3.find("Emma"))                           #Il las si pe asta ca sa retin diferenta, asta ne cauta pozitiile caracterelor
+print(fraza_3.count("Emma"))
 
-#Ex 7 [?]
+#Ex 7 - Imi arata, dar e asta metoda ce trebuia sau era o varianta mai usoara?
 fraza_1 = "eu merg la mare"
 print("lungimea frazei fraza_1 este", len(fraza_1))
-print("substring", fraza_1[0:2])
+print("substring", fraza_1[0:2]+ fraza_1[-2:])
 
 #Ex 8
 fraza_2 = "eu merg la mare"
 print("lungimea frazei fraza_2 este", len(fraza_2))
 
-#Ex 9 [?]
+#Ex 9 [?] - Nu am stiut cum sa fac ca prima sa nu se schimbe, iar pe net, erau destul de complexe decat ce am facut noi
 fraza_4 = "restart"
 print(fraza_4.replace("r", "$"))
 
-#Ex 10 [?]
+#Ex 10 - Apare, dar nu cred ca metoda asta trebuia. Nu sunt sigur cum ar trebui sa fac cu doua zecimale. Poate de la ex 15
 totalMoney = 1000
 quantity = 3
-price = 450
-print("I have f'(total money) so I can buy f'(quantity) football for f'(price) dollars")
+price = float(450)
+print("I have "+ str(totalMoney)+ " dollars so I can buy "+ str(quantity)+ " football for "+ str(price)+ " dollars")
 
 #Ex 11
 L = input("lungimea dreptunghiului")

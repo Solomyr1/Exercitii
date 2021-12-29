@@ -31,3 +31,7 @@ assert a!=b
 in                                                     #cauta daca un string e in alt string
 assert a > 18 and a < 55                               #ne spune daca si si sunt adevarate, dar nu ne printeaza, ci doar merge
 assert a > 18 or a < 55
+
+fraza_1 = "eu merg la mare"
+print("lungimea frazei fraza_1 este", len(fraza_1))
+print("substring", fraza_1[0:2]+ fraza_1[-2:])         #Nu imi arata penultima litera, ci pe ultimele doua
