@@ -35,3 +35,8 @@ assert a > 18 or a < 55
 fraza_1 = "eu merg la mare"
 print("lungimea frazei fraza_1 este", len(fraza_1))
 print("substring", fraza_1[0:2]+ fraza_1[-2:])         #Nu imi arata penultima litera, ci pe ultimele doua
+
+grade = int(input('enter a number between 0 -100: '))  #trebuie sa pun neaparat integer ca sa il poata compara cu 25
+
+if grade < 25:
+    print("F")
